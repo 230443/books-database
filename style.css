@@ -1,0 +1,29 @@
+body{
+    background: #eafcba;
+}
+table {
+    background: #fcedba;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr[id=header]{
+    background: #cafcba;
+    text-align: left;
+}
+table, th, td{
+    border: 1px solid black;
+    padding: 2px;
+}
+th,td{
+    padding: 5px;
+}
+
+td{
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+.price{
+    text-align:right;
+}
