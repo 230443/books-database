@@ -61,7 +61,7 @@
                         </xsl:element>
                         <span><xsl:value-of select="title"/></span>
                     </td>
-                    <td class="write">
+                    <td class="show" onclick="showInput(this)" id="">
                         <xsl:element name="input">
                             <xsl:attribute name="name">author</xsl:attribute>
                             <xsl:attribute name="placeholder">
@@ -152,7 +152,7 @@
             <table>
                 <tr>
                     <td>Total</td>
-                    <td class="number"><xsl:value-of select="booksNumber"/></td>
+                    <td class="number"><xsl:value-of select="count(//book)"/></td>
                 </tr>
             </table>
 
@@ -162,15 +162,20 @@
             <h4>Publishers</h4>
                 <xsl:apply-templates select="publishers"/>
 
+<!--
+
             <h4>Prices</h4>
                 <xsl:apply-templates select="prices"/>
+
+-->
+
             <h4>Generated</h4>
             <xsl:value-of select="//generated"/>
         </xsl:element>
 
     </xsl:template>
 
-    <xsl:template match="prices">
+   <!-- <xsl:template match="prices">
         <table>
             <caption>Statistics about prices</caption>
             <tr>
@@ -190,9 +195,12 @@
                 <td class="number"><xsl:value-of select="minPrice"/><xsl:value-of select="minPrice/@currency"/></td>
             </tr>
         </table>
-    </xsl:template>
+    </xsl:template>-->
 
     <xsl:template match="publishers">
+
+<!--
+
         <table>
             <caption>Number of books from different publishers</caption>
             <xsl:for-each select="publisher">
@@ -202,9 +210,30 @@
                 </tr>
             </xsl:for-each>
         </table>
+
+-->
+
+        <xsl:element name="table">
+            <caption>Number of books from different publishers</caption>
+            <xsl:for-each select="//publisher[not(.=preceding::publisher)]">
+                <xsl:variable name="tmp" select="."/>
+                <xsl:element name="tr">
+                    <xsl:element name="td">
+                        <xsl:value-of select="."/>
+                    </xsl:element>
+                    <xsl:element name="td">
+                        <xsl:value-of select="count(//publisher[.=$tmp])"/>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:for-each>
+        </xsl:element>
+
+
+
     </xsl:template>
 
     <xsl:template match="genres">
+        <!--
         <table>
             <caption>Number of books of different genres</caption>
             <xsl:for-each select="genre">
@@ -214,6 +243,26 @@
                 </tr>
             </xsl:for-each>
         </table>
+-->
+
+        <xsl:element name="table">
+            <caption>Number of books of different genres</caption>
+            <xsl:for-each select="//genre[not(.=preceding::genre)]">
+                <xsl:variable name="tmp" select="."/>
+                <xsl:element name="tr">
+                    <xsl:element name="td">
+                        <xsl:value-of select="."/>
+                    </xsl:element>
+                    <xsl:element name="td">
+                        <xsl:value-of select="count(//genre[.=$tmp])"/>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:for-each>
+        </xsl:element>
+
+
+
+
     </xsl:template>
 
 </xsl:stylesheet>

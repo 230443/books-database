@@ -36,3 +36,13 @@ function displayResult()
         document.getElementById("example").appendChild(resultDocument);
     }
 }
+
+function showInput(evt) {
+    var tData = evt.target;
+
+    alert(tData.getAttribute("class"));
+    alert(this.getAttribute("id"));
+
+    tData.setAttribute("class", "write");
+
+}
