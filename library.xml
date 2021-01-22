@@ -1,603 +1,624 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<library>
-   <books>
-      <book id="b2">
-         <title>Igrzyska śmierci</title>
-         <authors sort="Collins, Suzanne">
-            <author>Suzanne Collins</author>
-         </authors>
-         <series index="1">Igrzyska śmierci</series>
-         <publisher>Media Rodzina</publisher>
-         <pubdate>2008-12-02</pubdate>
-         <pages>345</pages>
-         <tags>
-            <tag>Contests</tag>
-            <genre>Fiction</genre>
-            <genre>Science fiction</genre>
-            <tag>Survival</tag>
-         </tags>
-         <size unit="B">619912</size>
-         <files>
-            <formats>
-               <format location="book.azw3">azw3</format>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-               <format location="book.txt">txt</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">27.05</price>
-      </book>
-      <book id="b3">
-         <title>W Pierscieniu Ognia</title>
-         <authors sort="Collins, Suzanne">
-            <author>Suzanne Collins</author>
-         </authors>
-         <series index="2">Igrzyska śmierci</series>
-         <publisher>Media Rodzina</publisher>
-         <pubdate>2009-01-15</pubdate>
-         <pages>429</pages>
-         <tags>
-            <tag>Contests</tag>
-            <genre>Fiction</genre>
-            <genre>Science fiction</genre>
-            <tag>Survival</tag>
-         </tags>
-         <size unit="B">602867</size>
-         <files>
-            <formats>
-               <format location="book.azw3">azw3</format>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">27.05</price>
-      </book>
-      <book id="b1">
-         <title>Kosogłos</title>
-         <authors sort="Collins, Suzanne">
-            <author>Suzanne Collins</author>
-         </authors>
-         <series index="3">Igrzyska śmierci</series>
-         <publisher>Media Rodzina</publisher>
-         <pubdate>2010-12-02</pubdate>
-         <pages>357</pages>
-         <tags>
-            <tag>Contests</tag>
-            <genre>Fiction</genre>
-            <genre>Science fiction</genre>
-            <tag>Survival</tag>
-         </tags>
-         <size unit="B">486867</size>
-         <files>
-            <formats>
-               <format location="book.azw3">azw3</format>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-               <format location="book.txt">txt</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">27.05</price>
-      </book>
-      <book id="b4">
-         <title>Odźwierny</title>
-         <authors sort="Diaczenko, Siergiej &amp; Diaczenko, Maria">
-            <author>Siergiej Diaczenko</author>
-            <author>Maria Diaczenko</author>
-         </authors>
-         <series index="1">Tułacze</series>
-         <publisher>Solaris</publisher>
-         <pubdate/>
-         <pages>316</pages>
-         <tags>
-            <genre>Thrillers</genre>
-         </tags>
-         <size unit="B">1497369</size>
-         <files>
-            <formats>
-               <format location="book.azw3">azw3</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">27.05</price>
-      </book>
-      <book id="b7">
-         <title>Szrama</title>
-         <authors sort="Diaczenko, Siergiej &amp; Diaczenko, Maria">
-            <author>Siergiej Diaczenko</author>
-            <author>Maria Diaczenko</author>
-         </authors>
-         <series index="2">Tułacze</series>
-         <publisher>Solaris</publisher>
-         <pubdate>2014-05-04</pubdate>
-         <pages>None</pages>
-         <tags>
-            <genre>Thrillers</genre>
-         </tags>
-         <size unit="B">1468859</size>
-         <files>
-            <formats>
-               <format location="book.azw3">azw3</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">27.05</price>
-      </book>
-      <book id="b5">
-         <title>Następca</title>
-         <authors sort="Diaczenko, Siergiej &amp; Diaczenko, Maria">
-            <author>Siergiej Diaczenko</author>
-            <author>Maria Diaczenko</author>
-         </authors>
-         <series index="3">Tułacze</series>
-         <publisher>Solaris</publisher>
-         <pubdate/>
-         <pages>445</pages>
-         <tags>
-            <genre>Thrillers</genre>
-         </tags>
-         <size unit="B">1795085</size>
-         <files>
-            <formats>
-               <format location="book.azw3">azw3</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">27.05</price>
-      </book>
-      <book id="b6">
-         <title>Awanturnik</title>
-         <authors sort="Diaczenko, Siergiej &amp; Diaczenko, Maria ">
-            <author>Maria Diaczenko</author>
-            <author>Siergiej Diaczenko</author>
-         </authors>
-         <series index="4">Tułacze</series>
-         <publisher>Solaris</publisher>
-         <pubdate/>
-         <pages>449</pages>
-         <tags>
-            <genre>Thrillers</genre>
-         </tags>
-         <size unit="B">1681353</size>
-         <files>
-            <formats>
-               <format location="book.azw3">azw3</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">27.05</price>
-      </book>
-      <book id="b20">
-         <title>Zemsta</title>
-         <authors sort="Fredro, Aleksander">
-            <author>Aleksander Fredro</author>
-         </authors>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2007-08-30</pubdate>
-         <pages>None</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/zemsta</link>
-         </tags>
-         <size unit="B">551943</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-      <book id="b11">
-         <title>Cierpienia młodego Wertera</title>
-         <authors sort="Goethe, Johann Wolfgang von">
-            <author>Johann Wolfgang von Goethe</author>
-         </authors>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2008-02-27</pubdate>
-         <pages>178</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/cierpienia-mlodego-wertera</link>
-         </tags>
-         <size unit="B">831391</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-      <book id="b12">
-         <title>Faust</title>
-         <authors sort="Goethe, Johann Wolfgang von">
-            <author>Johann Wolfgang von Goethe</author>
-         </authors>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2014-02-12</pubdate>
-         <pages>982</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/faust</link>
-         </tags>
-         <size unit="B">1514784</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-      <book id="b13">
-         <title>Faust, część pierwsza</title>
-         <authors sort="Goethe, Johann Wolfgang von">
-            <author>Johann Wolfgang von Goethe</author>
-         </authors>
-         <series index="1">Faust</series>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2013-09-02</pubdate>
-         <pages>411</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/goethe-faust-czesc-pierwsza</link>
-         </tags>
-         <size unit="B">829740</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-      <book id="b14">
-         <title>Faust, część druga</title>
-         <authors sort="Goethe, Johann Wolfgang von">
-            <author>Johann Wolfgang von Goethe</author>
-         </authors>
-         <series index="2">Faust</series>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2013-09-02</pubdate>
-         <pages>634</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/goethe-faust-czesc-druga</link>
-         </tags>
-         <size unit="B">1280604</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-      <book id="b22">
-         <title>Treny</title>
-         <authors sort="Kochanowski, Jan">
-            <author>Jan Kochanowski</author>
-         </authors>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2009-04-28</pubdate>
-         <pages>None</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/treny</link>
-         </tags>
-         <size unit="B">505715</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-      <book id="b10">
-         <title>Dziady</title>
-         <authors sort="Mickiewicz, Adam">
-            <author>Adam Mickiewicz</author>
-         </authors>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2009-01-12</pubdate>
-         <pages>None</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/dziady</link>
-         </tags>
-         <size unit="B">1074393</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-      <book id="b15">
-         <title>Sonety krymskie</title>
-         <authors sort="Mickiewicz, Adam">
-            <author>Adam Mickiewicz</author>
-         </authors>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2008-01-29</pubdate>
-         <pages>None</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/sonety-krymskie</link>
-         </tags>
-         <size unit="B">422218</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-      <book id="b21">
-         <title>Pan Tadeusz, czyli ostatni zajazd na Litwie</title>
-         <authors sort="Mickiewicz, Adam">
-            <author>Adam Mickiewicz</author>
-         </authors>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2010-03-03</pubdate>
-         <pages>None</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/pan-tadeusz</link>
-         </tags>
-         <size unit="B">1549473</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-      <book id="b9">
-         <title>Berenice</title>
-         <authors sort="Poe, Edgar Allan">
-            <author>Edgar Allan Poe</author>
-         </authors>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2010-03-02</pubdate>
-         <pages>None</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/berenice</link>
-         </tags>
-         <size unit="B">75103</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">50.00</price>
-      </book>
-      <book id="b17">
-         <title>Lalka</title>
-         <authors sort="Prus, Bolesław">
-            <author>Bolesław Prus</author>
-         </authors>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2008-12-10</pubdate>
-         <pages>1300</pages>
-         <tags>
-            <link>http://www.wolnelektury.pl/katalog/lektura/lalka</link>
-         </tags>
-         <size unit="B">3429810</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-      <book id="b18">
-         <title>Chłopi, Część pierwsza - Jesień</title>
-         <authors sort="Reymont, Władysław Stanisław">
-            <author>Władysław Stanisław Reymont</author>
-         </authors>
-         <series index="1">Chłopi</series>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2008-04-07</pubdate>
-         <pages>None</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/chlopi-czesc-pierwsza-jesien</link>
-         </tags>
-         <size unit="B">1132075</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-      <book id="b24">
-         <title>Sklepy cynamonowe (zbiór)</title>
-         <authors sort="Schulz, Bruno">
-            <author>Bruno Schulz</author>
-         </authors>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2012-11-12</pubdate>
-         <pages>None</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/schulz-sklepy-cynamonowe</link>
-         </tags>
-         <size unit="B">797149</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-      <book id="b8">
-         <title>Krzyżacy</title>
-         <authors sort="Sienkiewicz, Henryk">
-            <author>Henryk Sienkiewicz</author>
-         </authors>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2010-05-05</pubdate>
-         <pages>1311</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/krzyzacy</link>
-         </tags>
-         <size unit="B">3906366</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-      <book id="b16">
-         <title>Quo vadis</title>
-         <authors sort="Sienkiewicz, Henryk">
-            <author>Henryk Sienkiewicz</author>
-         </authors>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2009-12-01</pubdate>
-         <pages>None</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/quo-vadis</link>
-         </tags>
-         <size unit="B">2252267</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-      <book id="b25">
-         <title>Kordian</title>
-         <authors sort="Słowacki, Juliusz">
-            <author>Juliusz Słowacki</author>
-         </authors>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2009-04-28</pubdate>
-         <pages>None</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/kordian</link>
-         </tags>
-         <size unit="B">670950</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-      <book id="b19">
-         <title>Wesele</title>
-         <authors sort="Wyspiański, Stanisław">
-            <author>Stanisław Wyspiański</author>
-         </authors>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2008-12-16</pubdate>
-         <pages>None</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/wesele</link>
-         </tags>
-         <size unit="B">1084025</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-      <book id="b23">
-         <title>Przedwiośnie</title>
-         <authors sort="Żeromski, Stefan">
-            <author>Stefan Żeromski</author>
-         </authors>
-         <publisher>Fundacja Nowoczesna Polska</publisher>
-         <pubdate>2008-04-10</pubdate>
-         <pages>None</pages>
-         <tags>
-            <link>http://wolnelektury.pl/katalog/lektura/przedwiosnie</link>
-         </tags>
-         <size unit="B">1292306</size>
-         <files>
-            <formats>
-               <format location="book.mobi">mobi</format>
-               <format location="book.pdf">pdf</format>
-               <format location="book.epub">epub</format>
-            </formats>
-            <cover location="cover.jpg"/>
-         </files>
-         <price currency="PLN">0.00</price>
-      </book>
-   </books>
-   <statistics>
-      <booksNumber>25</booksNumber>
-      <genres>
-         <genre howMany="3">Fiction</genre>
-         <genre howMany="3">Science fiction</genre>
-         <genre howMany="4">Thrillers</genre>
-      </genres>
-      <publishers>
-         <publisher howMany="3">Media Rodzina</publisher>
-         <publisher howMany="4">Solaris</publisher>
-         <publisher howMany="18">Fundacja Nowoczesna Polska</publisher>
-      </publishers>
-      <prices>
-         <avgPrice currency="PLN">9.57</avgPrice>
-         <sumPrice currency="PLN">239.35</sumPrice>
-         <maxPrice currency="PLN">50.00</maxPrice>
-         <minPrice currency="PLN">0.00</minPrice>
-      </prices>
-      <generated>2020-12-20+01:00</generated>
-   </statistics>
-</library>
+<?xml version='1.0' encoding='utf-8'?>
+
+<!--<!DOCTYPE Library SYSTEM "books.dtd"> -->
+
+
+<!--	Daniel Baraniak -->
+<!--	230443 -->
+<!--	3IT -->
+<Library author="Daniel Baraniak" album="230443">
+
+    <books>
+        <book nr="b1">
+            <_pages>357</_pages>
+            <publisher idref="MR"/>
+            <size unit="B">486867</size>
+            <title>Kosogłos</title>
+            <authors sort="Collins, Suzanne">
+                <author>Suzanne Collins</author>
+            </authors>
+            <pubdate>2010-12-02T23:23:59+01:00</pubdate>
+            <tags>
+                <tag>Contests</tag>
+                <genre>Fiction</genre>
+                <genre>Science fiction</genre>
+                <tag>Survival</tag>
+            </tags>
+            <price currency="PLN">27.05</price>
+            <files>
+                <formats>
+                    <format location="book.azw3">azw3</format>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                    <format location="book.txt">txt</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+            <series index="3">Igrzyska śmierci</series>
+        </book>
+        <book nr="b2">
+            <_pages>345</_pages>
+            <publisher idref="MR"/>
+            <size unit="B">619912</size>
+            <title>Igrzyska śmierci</title>
+            <authors sort="Collins, Suzanne">
+                <author>Suzanne Collins</author>
+            </authors>
+            <pubdate>2008-12-02T23:00:00+01:00</pubdate>
+            <tags>
+                <tag>Contests</tag>
+                <genre>Fiction</genre>
+                <genre>Science fiction</genre>
+                <tag>Survival</tag>
+            </tags>
+            <price currency="PLN">27.05</price>
+            <files>
+                <formats>
+                    <format location="book.azw3">azw3</format>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                    <format location="book.txt">txt</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+            <series index="1">Igrzyska śmierci</series>
+        </book>
+        <book nr="b3">
+            <_pages>429</_pages>
+            <publisher idref="MR"/>
+            <size unit="B">602867</size>
+            <isbn>9788372783950</isbn>
+            <title>W Pierscieniu Ognia</title>
+            <authors sort="Collins, Suzanne">
+                <author>Suzanne Collins</author>
+            </authors>
+            <pubdate>2009-01-15T00:00:00+01:00</pubdate>
+            <tags>
+                <tag>Contests</tag>
+                <genre>Fiction</genre>
+                <genre>Science fiction</genre>
+                <tag>Survival</tag>
+            </tags>
+            <price currency="PLN">27.05</price>
+            <files>
+                <formats>
+                    <format location="book.azw3">azw3</format>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+            <series index="2">Igrzyska śmierci</series>
+        </book>
+        <book nr="b4">
+            <_pages>316</_pages>
+            <publisher idref="S"/>
+            <size unit="B">1497369</size>
+            <title>Odźwierny</title>
+            <authors sort="Diaczenko, Siergiej &amp; Diaczenko, Maria">
+                <author>Siergiej Diaczenko</author>
+                <author>Maria Diaczenko</author>
+            </authors>
+
+            <tags>
+                <genre>Thrillers</genre>
+            </tags>
+            <price currency="PLN">27.05</price>
+            <files>
+                <formats>
+                    <format location="book.azw3">azw3</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+            <series index="1">Tułacze</series>
+        </book>
+        <book nr="b5">
+            <_pages>445</_pages>
+            <publisher idref="S"/>
+            <size unit="B">1795085</size>
+            <title>Następca</title>
+            <authors sort="Diaczenko, Siergiej &amp; Diaczenko, Maria">
+                <author>Siergiej Diaczenko</author>
+                <author>Maria Diaczenko</author>
+            </authors>
+            <tags>
+                <genre>Thrillers</genre>
+            </tags>
+            <price currency="PLN">27.05</price>
+            <files>
+                <formats>
+                    <format location="book.azw3">azw3</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+            <series index="3">Tułacze</series>
+        </book>
+        <book nr="b6">
+            <_pages>449</_pages>
+            <publisher idref="S"/>
+            <size unit="B">1681353</size>
+            <title>Awanturnik</title>
+            <authors sort="Diaczenko, Siergiej &amp; Diaczenko, Maria ">
+                <author>Maria Diaczenko</author>
+                <author>Siergiej Diaczenko</author>
+            </authors>
+            <tags>
+                <genre>Thrillers</genre>
+            </tags>
+            <price currency="PLN">27.05</price>
+            <files>
+                <formats>
+                    <format location="book.azw3">azw3</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+            <series index="4">Tułacze</series>
+        </book>
+        <book nr="b7">
+            <_pages>None</_pages>
+            <publisher idref="S"/>
+            <size unit="B">1468859</size>
+            <title>Szrama</title>
+            <authors sort="Diaczenko, Siergiej &amp; Diaczenko, Maria">
+                <author>Siergiej Diaczenko</author>
+                <author>Maria Diaczenko</author>
+            </authors>
+            <pubdate>2014-05-04T00:00:00+02:00</pubdate>
+            <tags>
+                <genre>Thrillers</genre>
+            </tags>
+            <price currency="PLN">27.05</price>
+            <files>
+                <formats>
+                    <format location="book.azw3">azw3</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+            <series index="2">Tułacze</series>
+        </book>
+        <book nr="b8">
+            <_pages>1311</_pages>
+            <publisher idref="FNP"/>
+            <rating>5</rating>
+            <size unit="B">3906366</size>
+            <title>Krzyżacy</title>
+            <authors sort="Sienkiewicz, Henryk">
+                <author>Henryk Sienkiewicz</author>
+            </authors>
+            <pubdate>2010-05-05T00:00:00+02:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/krzyzacy</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+        </book>
+        <book nr="b9">
+            <_pages>None</_pages>
+            <publisher idref="FNP"/>
+            <rating>4</rating>
+            <size unit="B">75103</size>
+            <title>Berenice</title>
+            <authors sort="Poe, Edgar Allan">
+                <author>Edgar Allan Poe</author>
+            </authors>
+            <pubdate>2010-03-02T00:00:00+01:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/berenice</link>
+            </tags>
+            <price currency="PLN">50.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+        </book>
+        <book nr="b10">
+            <_pages>None</_pages>
+            <publisher idref="FNP"/>
+            <rating>2</rating>
+            <size unit="B">1074393</size>
+            <title>Dziady</title>
+            <authors sort="Mickiewicz, Adam">
+                <author>Adam Mickiewicz</author>
+            </authors>
+            <pubdate>2009-01-12T00:00:00+01:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/dziady</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+        </book>
+        <book nr="b11">
+            <_pages>178</_pages>
+            <publisher idref="FNP"/>
+            <rating>3</rating>
+            <size unit="B">831391</size>
+            <title>Cierpienia młodego Wertera</title>
+            <authors sort="Goethe, Johann Wolfgang von">
+                <author>Johann Wolfgang von Goethe</author>
+            </authors>
+            <pubdate>2008-02-27T00:00:00+01:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/cierpienia-mlodego-wertera</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+        </book>
+        <book nr="b12">
+            <_pages>982</_pages>
+            <publisher idref="FNP"/>
+            <rating>4</rating>
+            <size unit="B">1514784</size>
+            <title>Faust</title>
+            <authors sort="Goethe, Johann Wolfgang von">
+                <author>Johann Wolfgang von Goethe</author>
+            </authors>
+            <pubdate>2014-02-12T00:00:00+01:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/faust</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+        </book>
+        <book nr="b13">
+            <_pages>411</_pages>
+            <publisher idref="FNP"/>
+            <rating>4</rating>
+            <size unit="B">829740</size>
+            <title>Faust, część pierwsza</title>
+            <authors sort="Goethe, Johann Wolfgang von">
+                <author>Johann Wolfgang von Goethe</author>
+            </authors>
+            <pubdate>2013-09-02T00:00:00+02:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/goethe-faust-czesc-pierwsza</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+            <series index="1">Faust</series>
+        </book>
+        <book nr="b14">
+            <_pages>634</_pages>
+            <publisher idref="FNP"/>
+            <rating>4</rating>
+            <size unit="B">1280604</size>
+            <title>Faust, część druga</title>
+            <authors sort="Goethe, Johann Wolfgang von">
+                <author>Johann Wolfgang von Goethe</author>
+            </authors>
+            <pubdate>2013-09-02T00:00:00+02:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/goethe-faust-czesc-druga</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+            <series index="2">Faust</series>
+        </book>
+        <book nr="b15">
+            <_pages>None</_pages>
+            <publisher idref="FNP"/>
+            <rating>3</rating>
+            <size unit="B">422218</size>
+            <title>Sonety krymskie</title>
+            <authors sort="Mickiewicz, Adam">
+                <author>Adam Mickiewicz</author>
+            </authors>
+            <pubdate>2008-01-29T00:00:00+01:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/sonety-krymskie</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+        </book>
+        <book nr="b16">
+            <_pages>None</_pages>
+            <publisher idref="FNP"/>
+            <rating>4</rating>
+            <size unit="B">2252267</size>
+            <title>Quo vadis</title>
+            <authors sort="Sienkiewicz, Henryk">
+                <author>Henryk Sienkiewicz</author>
+            </authors>
+            <pubdate>2009-12-01T00:00:00+01:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/quo-vadis</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+        </book>
+        <book nr="b17">
+            <_pages>1300</_pages>
+            <publisher idref="FNP"/>
+            <rating>4</rating>
+            <size unit="B">3429810</size>
+            <isbn>9788328848191</isbn>
+            <title>Lalka</title>
+            <authors sort="Prus, Bolesław">
+                <author>Bolesław Prus</author>
+            </authors>
+            <pubdate>2008-12-10T00:00:00+01:00</pubdate>
+            <tags>
+                <link>http://www.wolnelektury.pl/katalog/lektura/lalka</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+        </book>
+        <book nr="b18">
+            <_pages>None</_pages>
+            <publisher idref="FNP"/>
+            <rating>5</rating>
+            <size unit="B">1132075</size>
+            <title>Chłopi, Część pierwsza - Jesień</title>
+            <authors sort="Reymont, Władysław Stanisław">
+                <author>Władysław Stanisław Reymont</author>
+            </authors>
+            <pubdate>2008-04-07T00:00:00+02:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/chlopi-czesc-pierwsza-jesien</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+            <series index="1">Chłopi</series>
+        </book>
+        <book nr="b19">
+            <_pages>None</_pages>
+            <publisher idref="FNP"/>
+            <rating>5</rating>
+            <size unit="B">1084025</size>
+            <title>Wesele</title>
+            <authors sort="Wyspiański, Stanisław">
+                <author>Stanisław Wyspiański</author>
+            </authors>
+            <pubdate>2008-12-16T00:00:00+01:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/wesele</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+        </book>
+        <book nr="b20">
+            <_pages>None</_pages>
+            <publisher idref="FNP"/>
+            <rating>5</rating>
+            <size unit="B">551943</size>
+            <title>Zemsta</title>
+            <authors sort="Fredro, Aleksander">
+                <author>Aleksander Fredro</author>
+            </authors>
+            <pubdate>2007-08-30T00:00:00+02:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/zemsta</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+        </book>
+        <book nr="b21">
+            <_pages>None</_pages>
+            <publisher idref="FNP"/>
+            <rating>3</rating>
+            <size unit="B">1549473</size>
+            <title>Pan Tadeusz, czyli ostatni zajazd na Litwie</title>
+            <authors sort="Mickiewicz, Adam">
+                <author>Adam Mickiewicz</author>
+            </authors>
+            <pubdate>2010-03-03T00:00:00+01:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/pan-tadeusz</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+        </book>
+        <book nr="b22">
+            <_pages>None</_pages>
+            <publisher idref="FNP"/>
+            <rating>5</rating>
+            <size unit="B">505715</size>
+            <title>Treny</title>
+            <authors sort="Kochanowski, Jan">
+                <author>Jan Kochanowski</author>
+            </authors>
+            <pubdate>2009-04-28T00:00:00+02:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/treny</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+        </book>
+        <book nr="b23">
+            <_pages>None</_pages>
+            <publisher idref="FNP"/>
+            <rating>4</rating>
+            <size unit="B">1292306</size>
+            <title>Przedwiośnie</title>
+            <authors sort="Żeromski, Stefan">
+                <author>Stefan Żeromski</author>
+            </authors>
+            <pubdate>2008-04-10T00:00:00+02:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/przedwiosnie</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+        </book>
+        <book nr="b24">
+            <_pages>None</_pages>
+            <publisher idref="FNP"/>
+            <rating>5</rating>
+            <size unit="B">797149</size>
+            <title>Sklepy cynamonowe (zbiór)</title>
+            <authors sort="Schulz, Bruno">
+                <author>Bruno Schulz</author>
+            </authors>
+            <pubdate>2012-11-12T00:00:00+01:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/schulz-sklepy-cynamonowe</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+        </book>
+        <book nr="b25">
+            <_pages>None</_pages>
+            <publisher idref="FNP"/>
+            <rating>4</rating>
+            <size unit="B">670950</size>
+            <title>Kordian</title>
+            <authors sort="Słowacki, Juliusz">
+                <author>Juliusz Słowacki</author>
+            </authors>
+            <pubdate>2009-04-28T00:00:00+02:00</pubdate>
+            <tags>
+                <link>http://wolnelektury.pl/katalog/lektura/kordian</link>
+            </tags>
+            <price currency="PLN">0.00</price>
+            <files>
+                <formats>
+                    <format location="book.mobi">mobi</format>
+                    <format location="book.pdf">pdf</format>
+                    <format location="book.epub">epub</format>
+                </formats>
+                <cover location="cover.jpg"/>
+            </files>
+        </book>
+    </books>
+    <publishers>
+        <pub id="MR">
+            <name>Media Rodzina</name>
+            <logo location="logo1.png"/>
+        </pub>
+        <pub id="S">
+            <name>Solaris</name>
+            <logo location="logo2.png"/>
+        </pub>
+        <pub id="FNP">
+            <name>Fundacja Nowoczesna Polska</name>
+            <logo location="logo3.png"/>
+            <link>http://wolnelektury.pl</link>
+        </pub>
+    </publishers>
+</Library>
