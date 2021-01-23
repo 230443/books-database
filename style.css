@@ -39,6 +39,9 @@ table[id=books], th, td {
 table{
     width: 100%;
 }
+table[id=books]{
+    width: 1120px;
+}
 
 th, td {
     padding: 5px;

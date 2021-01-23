@@ -68,22 +68,32 @@ function getInputValues(){
 
     for (i=0; i< inputs.length ;i++)
     {
-        alert("i: "+i);
+        //alert("i: "+i);
 
 
         let modified = inputs[i];
         //alert("modified: " + modified.innerHTML);
         let input = modified.getElementsByTagName("input")[0];
-        alert("input: " + input.innerHTML);
+       // alert("input: " + input.innerHTML);
         let bookId = modified.parentElement.id;
 
-        alert("book id: "+ bookId);
+        //alert("book id: "+ bookId);
 
-        alert("inputType: "+ input.name);
-        alert("inputValue: "+ input.value);
+        //alert("inputType: "+ input.name);
+        //alert("inputValue: "+ input.value);
 
         //xml.getElementById(bookId).innerHTML
-        xml.getElementById(bookId).getElementsByTagName(input.name)[0] = input.value;
+        //let book = xml.getElementById(bookId)
+        //alert(book.getElementsByTagName(input.name)[0].childNodes[0].nodeValue);
+        xml.getElementById(bookId).getElementsByTagName(input.name)[0].childNodes[0].nodeValue = input.value;
+        //for(j=0; j< book.childNodes.length; j++)
+        //{
+//
+        //    alert("book.childNodes.length "+ book.childNodes.length);
+        //    //book.childNodes[i].nodeValue
+        //    alert(j +":j "+ book.childNodes[j].nodeName+" : "+book.childNodes[j].nodeValue);
+        //}
+        //alert(j +"."+xml.getElementById(bookId).getElementsByTagName(input.name)[0].nodeName);
 
 
     }
@@ -91,6 +101,12 @@ function getInputValues(){
     xsltProcessor = new XSLTProcessor();
     xsltProcessor.importStylesheet(xsl);
     resultDocument = xsltProcessor.transformToFragment(xml, document);
-    document.getElementById("example").appendChild(resultDocument);
+     let old =  document.getElementById("example").firstElementChild;
+    document.getElementById("example").replaceChild(resultDocument,old);
+    //document.getElementById("example").appendChild(resultDocument);
+
+}
+
+function sanitizeText() {
 
 }

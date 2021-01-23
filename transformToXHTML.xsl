@@ -13,12 +13,13 @@
 
     <xsl:template match="/library">
 
-                <div id="container">
-                    <h1>Library</h1>
-                    <xsl:apply-templates select="statistics"/>
-                    <xsl:apply-templates select="books"/>
-                    <div style="clear: both"></div>
-                </div>
+        <xsl:element name="div">
+            <xsl:attribute name="id">container</xsl:attribute>
+            <h1>Library</h1>
+            <xsl:apply-templates select="statistics"/>
+            <xsl:apply-templates select="books"/>
+            <div style="clear: both"></div>
+        </xsl:element>
 
     </xsl:template>
 
@@ -54,6 +55,9 @@
                             <xsl:attribute name="placeholder">
                                 <xsl:value-of select="title"/>
                             </xsl:attribute>
+                            <xsl:attribute name="value">
+                                <xsl:value-of select="title"/>
+                            </xsl:attribute>
                         </xsl:element>
 
 
@@ -76,13 +80,24 @@
                             <xsl:attribute name="placeholder">
                                 <xsl:value-of select="authors/author"/>
                             </xsl:attribute>
+                            <xsl:attribute name="value">
+                                <xsl:value-of select="authors/author"/>
+                            </xsl:attribute>
                         </xsl:element>
 
 
                         <xsl:element name="span">
+
+
+                            <xsl:value-of select="authors/author"/>
+<!--
                         <xsl:for-each select="authors/author">
                             <xsl:value-of select="."/>,
                         </xsl:for-each>
+-->
+
+
+
                         </xsl:element>
                         <!-- apply-template match="ItemId"/> -->
                     </xsl:element>
@@ -99,6 +114,9 @@
                             <xsl:attribute name="style">width: 118px;</xsl:attribute>
                             <xsl:attribute name="name">series</xsl:attribute>
                             <xsl:attribute name="placeholder">
+                                <xsl:value-of select="series"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="value">
                                 <xsl:value-of select="series"/>
                             </xsl:attribute>
                         </xsl:element>
@@ -140,6 +158,18 @@
 
 
 
+                        <xsl:element name="input">
+                            <xsl:attribute name="style">width: 118px;</xsl:attribute>
+                            <xsl:attribute name="name">publisher</xsl:attribute>
+                            <xsl:attribute name="placeholder">
+                                <xsl:value-of select="publisher"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="value">
+                                <xsl:value-of select="publisher"/>
+                            </xsl:attribute>
+                        </xsl:element>
+
+<!--
                         <select name="publisher">
 
                             <option value="fnp">Fundacja Nowoczesna Polska</option>
@@ -147,6 +177,7 @@
                             <option value="s">Solaris</option>
 
                         </select>
+-->
 
                         <xsl:element name="span">
                         <xsl:value-of select="publisher"/>
@@ -205,6 +236,7 @@
 
             <h4>Genres</h4>
                 <xsl:apply-templates select="genres"/>
+
 
             <h4>Publishers</h4>
                 <xsl:apply-templates select="publishers"/>
