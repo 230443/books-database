@@ -6,31 +6,20 @@
     <xsl:output
             method="xml"
             encoding="utf-8"
-            doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
-            doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
+
             omit-xml-declaration="yes"
             indent="yes" />
 
 
     <xsl:template match="/library">
 
-
-        <xsl:element name="html" xml:lang="pl">
-            <xsl:attribute name="lang">pl</xsl:attribute>
-            <xsl:element name="head">
-                <meta content="text/html; charset=utf-8"/>
-                <title>Table of books</title>
-                <link rel="stylesheet" href="style.css"/>
-            </xsl:element>
-
-            <xsl:element name="body">
                 <div id="container">
                     <h1>Library</h1>
-                    <xsl:apply-templates select="books"/>
                     <xsl:apply-templates select="statistics"/>
+                    <xsl:apply-templates select="books"/>
+                    <div style="clear: both"></div>
                 </div>
-            </xsl:element>
-        </xsl:element>
+
     </xsl:template>
 
 
@@ -48,7 +37,10 @@
                 <th>Price</th>
             </tr>
             <xsl:for-each select="book">
-                <tr>
+                <xsl:element name="tr">
+                    <xsl:attribute name="id">
+                        <xsl:value-of select="@id"/>
+                    </xsl:attribute>
                     <td>
                         <xsl:number/>
                     </td>
@@ -104,6 +96,7 @@
 
 
                         <xsl:element name="input">
+                            <xsl:attribute name="style">width: 118px;</xsl:attribute>
                             <xsl:attribute name="name">series</xsl:attribute>
                             <xsl:attribute name="placeholder">
                                 <xsl:value-of select="series"/>
@@ -121,7 +114,10 @@
 
                         <xsl:attribute name="class">show</xsl:attribute>
                         <xsl:attribute name="onclick">showInput(this)</xsl:attribute>
+
+
                         <xsl:element name="input">
+                            <xsl:attribute name="style">width: 50px;</xsl:attribute>
                             <xsl:attribute name="name">index</xsl:attribute>
                             <xsl:attribute name="type">number</xsl:attribute>
                             <xsl:attribute name="min">1</xsl:attribute>
@@ -144,7 +140,7 @@
 
 
 
-                        <select id="publisher" name="publisher">
+                        <select name="publisher">
 
                             <option value="fnp">Fundacja Nowoczesna Polska</option>
                             <option value="mr">Media Rodzina</option>
@@ -167,6 +163,7 @@
 
 
                         <xsl:element name="input">
+                            <xsl:attribute name="style">width: 60px;</xsl:attribute>
                             <xsl:attribute name="name">index</xsl:attribute>
                             <xsl:attribute name="type">number</xsl:attribute>
                             <xsl:attribute name="step">0.01</xsl:attribute>
@@ -181,15 +178,20 @@
                         <xsl:value-of select="price/@currency"/>
                     </span>
                     </xsl:element>
-                </tr>
+
+
+                </xsl:element>
             </xsl:for-each>
+
         </table>
+
 
     </xsl:template>
 
     <xsl:template match="statistics">
         <xsl:element name="div">
             <xsl:attribute name="id">stats</xsl:attribute>
+            <button type="button" onclick="getInputValues()">submit</button>
 
             <h3>Statistics:</h3>
 

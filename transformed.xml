@@ -581,23 +581,7 @@
       </book>
    </books>
    <statistics>
-      <booksNumber>25</booksNumber>
-      <genres>
-         <genre howMany="3">Fiction</genre>
-         <genre howMany="3">Science fiction</genre>
-         <genre howMany="4">Thrillers</genre>
-      </genres>
-      <publishers>
-         <publisher howMany="3">Media Rodzina</publisher>
-         <publisher howMany="4">Solaris</publisher>
-         <publisher howMany="18">Fundacja Nowoczesna Polska</publisher>
-      </publishers>
-      <prices>
-         <avgPrice currency="PLN">9.57</avgPrice>
-         <sumPrice currency="PLN">239.35</sumPrice>
-         <maxPrice currency="PLN">50.00</maxPrice>
-         <minPrice currency="PLN">0.00</minPrice>
-      </prices>
+
       <generated>2020-12-20+01:00</generated>
    </statistics>
 </library>

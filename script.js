@@ -1,4 +1,5 @@
-var xmlDoc;
+var xml;
+var xsl;
 
 function loadXMLDoc(filename)
 {
@@ -19,7 +20,6 @@ function loadXMLDoc(filename)
 function displayResult()
 {
     xml = loadXMLDoc("transformed.xml");
-    xmlDoc = loadXMLDoc("transformed.xml");
     xsl = loadXMLDoc("transformToXHTML.xsl");
     //xml = loadXMLDoc("library.xml");
     //xsl = loadXMLDoc("library.xsl");
@@ -42,7 +42,7 @@ function displayResult()
 
 function showInput(tData) {
 
-    alert("in showInput()")
+    //alert("in showInput()")
 
     tData.setAttribute("class", "write");
     tData.setAttribute("onclick", ";");
@@ -58,4 +58,39 @@ function newElement()
         "<publisher></publisher>" +
         "<pages></pages>" +
         "<price></price>"
+}
+
+function getInputValues(){
+
+    var inputs = document.getElementsByClassName("write");
+
+    alert("length=" + inputs.length);
+
+    for (i=0; i< inputs.length ;i++)
+    {
+        alert("i: "+i);
+
+
+        let modified = inputs[i];
+        //alert("modified: " + modified.innerHTML);
+        let input = modified.getElementsByTagName("input")[0];
+        alert("input: " + input.innerHTML);
+        let bookId = modified.parentElement.id;
+
+        alert("book id: "+ bookId);
+
+        alert("inputType: "+ input.name);
+        alert("inputValue: "+ input.value);
+
+        //xml.getElementById(bookId).innerHTML
+        xml.getElementById(bookId).getElementsByTagName(input.name)[0] = input.value;
+
+
+    }
+
+    xsltProcessor = new XSLTProcessor();
+    xsltProcessor.importStylesheet(xsl);
+    resultDocument = xsltProcessor.transformToFragment(xml, document);
+    document.getElementById("example").appendChild(resultDocument);
+
 }

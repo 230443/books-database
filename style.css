@@ -2,7 +2,7 @@ body {
     background: #eafcba;
 }
 #container{
-    width: 1200px;
+    width: 1500px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -53,8 +53,8 @@ td {
 .number {
     text-align: right;
 }
-.show input,select{
-    display: inline-block;
+.show input, .show select{
+    display: none;
 }
 .write span{
     display: none ;
