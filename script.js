@@ -1,5 +1,6 @@
 var xml;
 var xsl;
+var booksNumber;
 
 function loadXMLDoc(filename)
 {
@@ -23,6 +24,8 @@ function displayResult()
     xsl = loadXMLDoc("transformToXHTML.xsl");
     //xml = loadXMLDoc("library.xml");
     //xsl = loadXMLDoc("library.xsl");
+    booksNumber = xml.getElementsByTagName("book").length;
+    //alert(booksNumber);
 
 // code for IE
     if (window.ActiveXObject || xhttp.responseType == "msxml-document")
@@ -52,12 +55,22 @@ function showInput(tData) {
 
 function newElement()
 {
-    entry = "<book id=''> <title></title>" +
-        "<authors><author></author></authors>" +
-        "<series inedx=''></series>" +
-        "<publisher></publisher>" +
-        "<pages></pages>" +
-        "<price></price>"
+    booksNumber+=1;
+    let entry = "<book id='b"+booksNumber+"'>" +
+        "<title> </title>" +
+        "<authors><author> </author></authors>" +
+        "<series inedx=' '> </series>" +
+        "<publisher> </publisher>" +
+        "<pubdate></pubdate>" +
+        "<pages>none</pages>" +
+        "<price currency='PLN'>0.00</price>" +
+        "</book>";
+    alert(entry);
+
+    parser = new DOMParser();
+    let newBook = parser.parseFromString(entry,"text/xml");
+    alert(newBook.getElementById("b26").childNodes.length);
+    return newBook;
 }
 
 function getInputValues(){
@@ -108,5 +121,33 @@ function getInputValues(){
 }
 
 function sanitizeText() {
+
+
+}
+
+function deleteBook(element) {
+
+    let bookId = element.parentElement.parentElement.id;
+    xml.getElementById(bookId).remove();
+
+    xsltProcessor = new XSLTProcessor();
+    xsltProcessor.importStylesheet(xsl);
+    resultDocument = xsltProcessor.transformToFragment(xml, document);
+    let old =  document.getElementById("example").firstElementChild;
+    document.getElementById("example").replaceChild(resultDocument,old);
+
+}
+
+function addBook() {
+
+
+    xml.getElementsByTagName("books")[0].appendChild(newElement());
+    alert("after" + xml.getElementsByTagName("books").childNodes.length);
+
+    xsltProcessor = new XSLTProcessor();
+    xsltProcessor.importStylesheet(xsl);
+    resultDocument = xsltProcessor.transformToFragment(xml, document);
+    let old =  document.getElementById("example").firstElementChild;
+    document.getElementById("example").replaceChild(resultDocument,old);
 
 }

@@ -36,6 +36,7 @@
                 <th>Number in series</th>
                 <th>Publisher</th>
                 <th>Price</th>
+                <th>Delete</th>
             </tr>
             <xsl:for-each select="book">
                 <xsl:element name="tr">
@@ -210,6 +211,16 @@
                     </span>
                     </xsl:element>
 
+                    <xsl:element name="td">
+                        <xsl:element name="button">
+                            <xsl:attribute name="onclick">
+                                deleteBook(this)
+                            </xsl:attribute>
+                            delete
+                        </xsl:element>
+
+                    </xsl:element>
+
 
                 </xsl:element>
             </xsl:for-each>
@@ -223,6 +234,7 @@
         <xsl:element name="div">
             <xsl:attribute name="id">stats</xsl:attribute>
             <button type="button" onclick="getInputValues()">submit</button>
+            <button type="button" onclick="addBook()">add Book</button>
 
             <h3>Statistics:</h3>
 
