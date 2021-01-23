@@ -235,6 +235,7 @@
             <xsl:attribute name="id">stats</xsl:attribute>
             <button type="button" onclick="getInputValues()">submit</button>
             <button type="button" onclick="addBook()">add Book</button>
+            <button type="button" onclick="showSource()">show XML</button>
 
             <h3>Statistics:</h3>
 

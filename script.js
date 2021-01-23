@@ -161,6 +161,8 @@ function deleteBook(element) {
     transformXML();
 }
 
+
+
 function addBook() {
 
     xml.getElementsByTagName("books")[0].appendChild(newElement());
@@ -185,9 +187,11 @@ function transformXML()
 
     document.getElementById("generated").innerHTML = datetime;
 
-    //let today = new Date();
-    //let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-    //let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-    //let dateTime = date+' '+time;
+}
+function showSource()
+{
+    let outputXml = new XMLSerializer().serializeToString(xml);
+
+    console.log(vkbeautify.xml(outputXml));
 }
 
