@@ -54,7 +54,7 @@ td {
     text-align: right;
 }
 .show input,select{
-    display: none ;
+    display: inline-block;
 }
 .write span{
     display: none ;

@@ -52,30 +52,57 @@
                     <td>
                         <xsl:number/>
                     </td>
-                    <td class="show">
+
+                    <xsl:element name="td">
+                        <xsl:attribute name="class">show</xsl:attribute>
+                        <xsl:attribute name="onclick">showInput(this)</xsl:attribute>
+
                         <xsl:element name="input">
                             <xsl:attribute name="name">title</xsl:attribute>
                             <xsl:attribute name="placeholder">
                                 <xsl:value-of select="title"/>
                             </xsl:attribute>
                         </xsl:element>
-                        <span><xsl:value-of select="title"/></span>
-                    </td>
-                    <td class="show" onclick="showInput(this)" id="">
+
+
+                        <xsl:element name="span">
+                            <xsl:value-of select="title"/>
+                        </xsl:element>
+
+                    </xsl:element>
+
+
+
+
+                    <xsl:element name="td">
+                        <xsl:attribute name="class">show</xsl:attribute>
+                        <xsl:attribute name="onclick">showInput(this)</xsl:attribute>
+
+
                         <xsl:element name="input">
                             <xsl:attribute name="name">author</xsl:attribute>
                             <xsl:attribute name="placeholder">
                                 <xsl:value-of select="authors/author"/>
                             </xsl:attribute>
                         </xsl:element>
-                    <span>
+
+
+                        <xsl:element name="span">
                         <xsl:for-each select="authors/author">
                             <xsl:value-of select="."/>,
                         </xsl:for-each>
-                    </span>
+                        </xsl:element>
                         <!-- apply-template match="ItemId"/> -->
-                    </td>
-                    <td class="show">
+                    </xsl:element>
+
+
+
+
+                    <xsl:element name="td">
+                        <xsl:attribute name="class">show</xsl:attribute>
+                        <xsl:attribute name="onclick">showInput(this)</xsl:attribute>
+
+
                         <xsl:element name="input">
                             <xsl:attribute name="name">series</xsl:attribute>
                             <xsl:attribute name="placeholder">
@@ -83,33 +110,39 @@
                             </xsl:attribute>
                         </xsl:element>
 
-                    <span>
-                        <xsl:if test="child::series">
+                        <xsl:element name="span">
                             <xsl:value-of select="series"/>
-                        </xsl:if>
-                        <xsl:if test="not(child::series)">
-                        </xsl:if>
-                </span>
-                    </td>
-                    <td class="show">
+                        </xsl:element>
+                    </xsl:element>
+
+
+
+                    <xsl:element name="td">
+
+                        <xsl:attribute name="class">show</xsl:attribute>
+                        <xsl:attribute name="onclick">showInput(this)</xsl:attribute>
                         <xsl:element name="input">
                             <xsl:attribute name="name">index</xsl:attribute>
                             <xsl:attribute name="type">number</xsl:attribute>
                             <xsl:attribute name="min">1</xsl:attribute>
                             <xsl:attribute name="max">999</xsl:attribute>
+                            <xsl:attribute name="value">
+                                <xsl:value-of select="series/@index"/>
+                            </xsl:attribute>
                         </xsl:element>
 
-                    <span>
-                        <xsl:if test="child::series">
+                        <xsl:element name="span">
                             <xsl:value-of select="series/@index"/>
-                        </xsl:if>
-                        <xsl:if test="not(child::series)">
-                        </xsl:if>
-                </span>
-                    </td>
+                        </xsl:element>
+
+                    </xsl:element>
 
 
-                    <td class="show">
+                    <xsl:element name="td">
+                        <xsl:attribute name="class">show</xsl:attribute>
+                        <xsl:attribute name="onclick">showInput(this)</xsl:attribute>
+
+
 
                         <select id="publisher" name="publisher">
 
@@ -118,24 +151,36 @@
                             <option value="s">Solaris</option>
 
                         </select>
-                    <span>
-                        <xsl:value-of select="publisher"/>
-                    </span>
-                    </td>
 
-                    <td class="show">
+                        <xsl:element name="span">
+                        <xsl:value-of select="publisher"/>
+                        </xsl:element>
+
+
+                    </xsl:element>
+
+
+                    <xsl:element name="td">
+                        <xsl:attribute name="class">show</xsl:attribute>
+                        <xsl:attribute name="onclick">showInput(this)</xsl:attribute>
+
+
+
                         <xsl:element name="input">
                             <xsl:attribute name="name">index</xsl:attribute>
                             <xsl:attribute name="type">number</xsl:attribute>
                             <xsl:attribute name="step">0.01</xsl:attribute>
                             <xsl:attribute name="min">1</xsl:attribute>
                             <xsl:attribute name="max">999</xsl:attribute>
+                            <xsl:attribute name="value">
+                                <xsl:value-of select="price"/>
+                            </xsl:attribute>
                         </xsl:element>
                     <span>
                         <xsl:value-of select="price"/>
                         <xsl:value-of select="price/@currency"/>
                     </span>
-                    </td>
+                    </xsl:element>
                 </tr>
             </xsl:for-each>
         </table>

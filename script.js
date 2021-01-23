@@ -1,3 +1,5 @@
+var xmlDoc;
+
 function loadXMLDoc(filename)
 {
     if (window.ActiveXObject)
@@ -17,6 +19,7 @@ function loadXMLDoc(filename)
 function displayResult()
 {
     xml = loadXMLDoc("transformed.xml");
+    xmlDoc = loadXMLDoc("transformed.xml");
     xsl = loadXMLDoc("transformToXHTML.xsl");
     //xml = loadXMLDoc("library.xml");
     //xsl = loadXMLDoc("library.xsl");
@@ -37,12 +40,22 @@ function displayResult()
     }
 }
 
-function showInput(evt) {
-    var tData = evt.target;
+function showInput(tData) {
 
-    alert(tData.getAttribute("class"));
-    alert(this.getAttribute("id"));
+    alert("in showInput()")
 
     tData.setAttribute("class", "write");
+    tData.setAttribute("onclick", ";");
 
+}
+
+
+function newElement()
+{
+    entry = "<book id=''> <title></title>" +
+        "<authors><author></author></authors>" +
+        "<series inedx=''></series>" +
+        "<publisher></publisher>" +
+        "<pages></pages>" +
+        "<price></price>"
 }
