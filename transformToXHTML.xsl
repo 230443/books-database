@@ -121,9 +121,9 @@
                             </xsl:attribute>
                         </xsl:element>
 
-                        <xsl:element name="span">
+                        <span>
                             <xsl:value-of select="series"/>
-                        </xsl:element>
+                        </span>
                     </xsl:element>
 
 
@@ -145,9 +145,9 @@
                             </xsl:attribute>
                         </xsl:element>
 
-                        <xsl:element name="span">
+                        <span>
                             <xsl:value-of select="series/@index"/>
-                        </xsl:element>
+                        </span>
 
                     </xsl:element>
 

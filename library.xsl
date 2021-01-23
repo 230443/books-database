@@ -19,7 +19,15 @@
                         <xsl:attribute name="id">
                             <xsl:value-of select="@nr"/>
                         </xsl:attribute>
-                        <xsl:copy-of select="title|authors|series"/>
+                        <xsl:copy-of select="title|authors"/>
+
+                        <xsl:if test="series">
+                            <xsl:copy-of select="series"/>
+                        </xsl:if>
+                        <xsl:if test="not(series)">
+                            <series inedx=''></series>
+                        </xsl:if>
+
                         <xsl:element name="publisher">
                             <xsl:value-of select="key('publisher',publisher/@idref)"/>
                         </xsl:element>

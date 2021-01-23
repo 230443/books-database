@@ -185,6 +185,7 @@
          <authors sort="Fredro, Aleksander">
             <author>Aleksander Fredro</author>
          </authors>
+         <series inedx=" "> </series>
          <publisher>Fundacja Nowoczesna Polska</publisher>
          <pubdate>2007-08-30</pubdate>
          <pages>None</pages>
@@ -207,6 +208,7 @@
          <authors sort="Goethe, Johann Wolfgang von">
             <author>Johann Wolfgang von Goethe</author>
          </authors>
+         <series inedx=" "> </series>
          <publisher>Fundacja Nowoczesna Polska</publisher>
          <pubdate>2008-02-27</pubdate>
          <pages>178</pages>
@@ -229,6 +231,7 @@
          <authors sort="Goethe, Johann Wolfgang von">
             <author>Johann Wolfgang von Goethe</author>
          </authors>
+         <series inedx=" "> </series>
          <publisher>Fundacja Nowoczesna Polska</publisher>
          <pubdate>2014-02-12</pubdate>
          <pages>982</pages>
@@ -297,6 +300,7 @@
          <authors sort="Kochanowski, Jan">
             <author>Jan Kochanowski</author>
          </authors>
+         <series inedx=" "> </series>
          <publisher>Fundacja Nowoczesna Polska</publisher>
          <pubdate>2009-04-28</pubdate>
          <pages>None</pages>
@@ -319,6 +323,7 @@
          <authors sort="Mickiewicz, Adam">
             <author>Adam Mickiewicz</author>
          </authors>
+         <series inedx=" "> </series>
          <publisher>Fundacja Nowoczesna Polska</publisher>
          <pubdate>2009-01-12</pubdate>
          <pages>None</pages>
@@ -341,6 +346,7 @@
          <authors sort="Mickiewicz, Adam">
             <author>Adam Mickiewicz</author>
          </authors>
+         <series inedx=" "> </series>
          <publisher>Fundacja Nowoczesna Polska</publisher>
          <pubdate>2008-01-29</pubdate>
          <pages>None</pages>
@@ -363,6 +369,7 @@
          <authors sort="Mickiewicz, Adam">
             <author>Adam Mickiewicz</author>
          </authors>
+         <series inedx=" "> </series>
          <publisher>Fundacja Nowoczesna Polska</publisher>
          <pubdate>2010-03-03</pubdate>
          <pages>None</pages>
@@ -385,6 +392,7 @@
          <authors sort="Poe, Edgar Allan">
             <author>Edgar Allan Poe</author>
          </authors>
+         <series inedx=" "> </series>
          <publisher>Fundacja Nowoczesna Polska</publisher>
          <pubdate>2010-03-02</pubdate>
          <pages>None</pages>
@@ -407,6 +415,7 @@
          <authors sort="Prus, Bolesław">
             <author>Bolesław Prus</author>
          </authors>
+         <series inedx=" "> </series>
          <publisher>Fundacja Nowoczesna Polska</publisher>
          <pubdate>2008-12-10</pubdate>
          <pages>1300</pages>
@@ -452,6 +461,7 @@
          <authors sort="Schulz, Bruno">
             <author>Bruno Schulz</author>
          </authors>
+         <series inedx=" "> </series>
          <publisher>Fundacja Nowoczesna Polska</publisher>
          <pubdate>2012-11-12</pubdate>
          <pages>None</pages>
@@ -474,6 +484,7 @@
          <authors sort="Sienkiewicz, Henryk">
             <author>Henryk Sienkiewicz</author>
          </authors>
+         <series inedx=" "> </series>
          <publisher>Fundacja Nowoczesna Polska</publisher>
          <pubdate>2010-05-05</pubdate>
          <pages>1311</pages>
@@ -496,6 +507,7 @@
          <authors sort="Sienkiewicz, Henryk">
             <author>Henryk Sienkiewicz</author>
          </authors>
+         <series inedx=" "> </series>
          <publisher>Fundacja Nowoczesna Polska</publisher>
          <pubdate>2009-12-01</pubdate>
          <pages>None</pages>
@@ -518,6 +530,7 @@
          <authors sort="Słowacki, Juliusz">
             <author>Juliusz Słowacki</author>
          </authors>
+         <series inedx=" "> </series>
          <publisher>Fundacja Nowoczesna Polska</publisher>
          <pubdate>2009-04-28</pubdate>
          <pages>None</pages>
@@ -540,6 +553,7 @@
          <authors sort="Wyspiański, Stanisław">
             <author>Stanisław Wyspiański</author>
          </authors>
+         <series inedx=" "> </series>
          <publisher>Fundacja Nowoczesna Polska</publisher>
          <pubdate>2008-12-16</pubdate>
          <pages>None</pages>
@@ -562,6 +576,7 @@
          <authors sort="Żeromski, Stefan">
             <author>Stefan Żeromski</author>
          </authors>
+         <series inedx=" "> </series>
          <publisher>Fundacja Nowoczesna Polska</publisher>
          <pubdate>2008-04-10</pubdate>
          <pages>None</pages>
