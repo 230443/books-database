@@ -196,7 +196,7 @@
 
                         <xsl:element name="input">
                             <xsl:attribute name="style">width: 60px;</xsl:attribute>
-                            <xsl:attribute name="name">index</xsl:attribute>
+                            <xsl:attribute name="name">price</xsl:attribute>
                             <xsl:attribute name="type">number</xsl:attribute>
                             <xsl:attribute name="step">0.01</xsl:attribute>
                             <xsl:attribute name="min">1</xsl:attribute>
@@ -261,7 +261,11 @@
 -->
 
             <h4>Generated</h4>
-            <xsl:value-of select="//generated"/>
+
+            <div id="generated">
+                <xsl:value-of select="//generated"/>
+            </div>
+
         </xsl:element>
 
     </xsl:template>
