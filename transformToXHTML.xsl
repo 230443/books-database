@@ -52,6 +52,7 @@
                         <xsl:attribute name="onclick">showInput(this)</xsl:attribute>
 
                         <xsl:element name="input">
+                            <xsl:attribute name="style">width: 118px;</xsl:attribute>
                             <xsl:attribute name="name">title</xsl:attribute>
                             <xsl:attribute name="placeholder">
                                 <xsl:value-of select="title"/>
@@ -77,6 +78,7 @@
 
 
                         <xsl:element name="input">
+                            <xsl:attribute name="style">width: 118px;</xsl:attribute>
                             <xsl:attribute name="name">author</xsl:attribute>
                             <xsl:attribute name="placeholder">
                                 <xsl:value-of select="authors/author"/>
@@ -246,9 +248,10 @@
                     <td class="number"><xsl:value-of select="count(//book)"/></td>
                 </tr>
             </table>
-
+<!--
             <h4>Genres</h4>
                 <xsl:apply-templates select="genres"/>
+-->
 
 
             <h4>Publishers</h4>

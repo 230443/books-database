@@ -22,8 +22,7 @@ function displayResult()
 {
     xml = loadXMLDoc("transformed.xml");
     xsl = loadXMLDoc("transformToXHTML.xsl");
-    //xml = loadXMLDoc("library.xml");
-    //xsl = loadXMLDoc("library.xsl");
+
     booksNumber = xml.getElementsByTagName("book").length;
     //alert(booksNumber);
 
@@ -41,6 +40,7 @@ function displayResult()
         resultDocument = xsltProcessor.transformToFragment(xml, document);
         document.getElementById("example").appendChild(resultDocument);
     }
+    saveDate();
 }
 
 function showInput(tData) {
@@ -91,15 +91,6 @@ function getInputValues(){
        // alert("input: " + input.innerHTML);
         let bookId = modified.parentElement.id;
 
-        //alert("book id: "+ bookId);
-
-        //alert("inputType: "+ input.name);
-        //alert("inputValue: "+ input.value);
-
-        //xml.getElementById(bookId).innerHTML
-        //let book = xml.getElementById(bookId)
-        //alert(book.getElementsByTagName(input.name)[0].childNodes[0].nodeValue);
-        let text;
         if(input.name === "index")
         {
             if (input.value<0 || input.value>999)
@@ -123,7 +114,6 @@ function getInputValues(){
             {
                 xml.getElementById(bookId).getElementsByTagName("price")[0].childNodes[0].nodeValue = Math.round(input.value*100)/100;
             }
-
         }
         else
         {
@@ -134,16 +124,6 @@ function getInputValues(){
             }
             xml.getElementById(bookId).getElementsByTagName(input.name)[0].childNodes[0].nodeValue = input.value;
         }
-        //for(j=0; j< book.childNodes.length; j++)
-        //{
-//
-        //    alert("book.childNodes.length "+ book.childNodes.length);
-        //    //book.childNodes[i].nodeValue
-        //    alert(j +":j "+ book.childNodes[j].nodeName+" : "+book.childNodes[j].nodeValue);
-        //}
-        //alert(j +"."+xml.getElementById(bookId).getElementsByTagName(input.name)[0].nodeName);
-
-
     }
 
     transformXML();
@@ -177,6 +157,13 @@ function transformXML()
     let old =  document.getElementById("example").firstElementChild;
     document.getElementById("example").replaceChild(resultDocument,old);
 
+    saveDate();
+
+
+}
+
+function saveDate()
+{
     let currentdate = new Date();
     let datetime = currentdate.getDate() + "/"
         + (currentdate.getMonth()+1)  + "/"
@@ -186,12 +173,14 @@ function transformXML()
         + currentdate.getSeconds();
 
     document.getElementById("generated").innerHTML = datetime;
-
+    xml.getElementsByTagName("generated")[0].childNodes[0].nodeValue = datetime;
 }
+
 function showSource()
 {
     let outputXml = new XMLSerializer().serializeToString(xml);
 
     console.log(vkbeautify.xml(outputXml));
+    alert("Output is visible in the console.")
 }
 
