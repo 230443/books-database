@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg
+  PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1080px"
+     height="1000px"
+     viewBox="-320 -50 1080 1000">
+   <defs>
+                        template:genres<g class="graph" id="genres">
+         <text x="-10"
+               y="55"
+               text-anchor="end"
+               font-family="sans-serif"
+               font-size="35"
+               fill="#000000">genres</text>
+         <g class="column">
+            <text x="40" y="120" font-family="sans-serif" font-size="20">3<animate attributeType="XML"
+                        attributeName="x"
+                        from="10"
+                        to="40"
+                        dur="1s"
+                        fill="freeze"/>
+            </text>
+            <rect onclick="changeColor(evt)"
+                  class="blue"
+                  id=""
+                  y="100"
+                  x="0"
+                  height="30"
+                  width="30"
+                  fill="#6FAED6"
+                  style="stroke:black; stroke-width:2">
+               <animateTransform attributeType="XML"
+                                 attributeName="transform"
+                                 type="scale"
+                                 from="0 1"
+                                 to="1 1"
+                                 dur="1s"/>
+            </rect>
+            <text x="270"
+                  y="100"
+                  font-family="sans-serif"
+                  font-size="15"
+                  display="none"
+                  fill="#000000">
+<tspan x="250" dy="20">Igrzyska śmierci, W Pierscieniu Ognia, Kosogłos</tspan></text>
+            <text x="-15"
+                  y="120"
+                  text-anchor="end"
+                  font-family="sans-serif"
+                  font-size="20"
+                  fill="#000000">Fiction</text>
+         </g>
+         <g class="column">
+            <text x="40" y="190" font-family="sans-serif" font-size="20">3<animate attributeType="XML"
+                        attributeName="x"
+                        from="10"
+                        to="40"
+                        dur="1s"
+                        fill="freeze"/>
+            </text>
+            <rect onclick="changeColor(evt)"
+                  class="blue"
+                  id=""
+                  y="170"
+                  x="0"
+                  height="30"
+                  width="30"
+                  fill="#6FAED6"
+                  style="stroke:black; stroke-width:2">
+               <animateTransform attributeType="XML"
+                                 attributeName="transform"
+                                 type="scale"
+                                 from="0 1"
+                                 to="1 1"
+                                 dur="1s"/>
+            </rect>
+            <text x="270"
+                  y="170"
+                  font-family="sans-serif"
+                  font-size="15"
+                  display="none"
+                  fill="#000000">
+<tspan x="250" dy="20">Igrzyska śmierci, W Pierscieniu Ognia, Kosogłos</tspan></text>
+            <text x="-15"
+                  y="190"
+                  text-anchor="end"
+                  font-family="sans-serif"
+                  font-size="20"
+                  fill="#000000">Science fiction</text>
+         </g>
+         <g class="column">
+            <text x="50" y="260" font-family="sans-serif" font-size="20">4<animate attributeType="XML"
+                        attributeName="x"
+                        from="10"
+                        to="50"
+                        dur="1s"
+                        fill="freeze"/>
+            </text>
+            <rect onclick="changeColor(evt)"
+                  class="blue"
+                  id=""
+                  y="240"
+                  x="0"
+                  height="30"
+                  width="40"
+                  fill="#6FAED6"
+                  style="stroke:black; stroke-width:2">
+               <animateTransform attributeType="XML"
+                                 attributeName="transform"
+                                 type="scale"
+                                 from="0 1"
+                                 to="1 1"
+                                 dur="1s"/>
+            </rect>
+            <text x="270"
+                  y="240"
+                  font-family="sans-serif"
+                  font-size="15"
+                  display="none"
+                  fill="#000000">
+<tspan x="250" dy="20">Odźwierny, Szrama, Następca, </tspan>
+<tspan x="250" dy="20">Awanturnik</tspan></text>
+            <text x="-15"
+                  y="260"
+                  text-anchor="end"
+                  font-family="sans-serif"
+                  font-size="20"
+                  fill="#000000">Thrillers</text>
+         </g>
+      </g>
+                        template:publishers<g class="graph" id="publishers">
+         <text x="-10"
+               y="55"
+               text-anchor="end"
+               font-family="sans-serif"
+               font-size="35"
+               fill="#000000">publishers</text>
+         <g class="column">
+            <text x="40" y="120" font-family="sans-serif" font-size="20">3<animate attributeType="XML"
+                        attributeName="x"
+                        from="10"
+                        to="40"
+                        dur="1s"
+                        fill="freeze"/>
+            </text>
+            <rect onclick="changeColor(evt)"
+                  class="blue"
+                  id=""
+                  y="100"
+                  x="0"
+                  height="30"
+                  width="30"
+                  fill="#6FAED6"
+                  style="stroke:black; stroke-width:2">
+               <animateTransform attributeType="XML"
+                                 attributeName="transform"
+                                 type="scale"
+                                 from="0 1"
+                                 to="1 1"
+                                 dur="1s"/>
+            </rect>
+            <text x="270"
+                  y="100"
+                  font-family="sans-serif"
+                  font-size="15"
+                  display="none"
+                  fill="#000000">
+<tspan x="250" dy="20">Igrzyska śmierci, W Pierscieniu Ognia, Kosogłos</tspan></text>
+            <text x="-15"
+                  y="120"
+                  text-anchor="end"
+                  font-family="sans-serif"
+                  font-size="20"
+                  fill="#000000">Media Rodzina</text>
+         </g>
+         <g class="column">
+            <text x="50" y="190" font-family="sans-serif" font-size="20">4<animate attributeType="XML"
+                        attributeName="x"
+                        from="10"
+                        to="50"
+                        dur="1s"
+                        fill="freeze"/>
+            </text>
+            <rect onclick="changeColor(evt)"
+                  class="blue"
+                  id=""
+                  y="170"
+                  x="0"
+                  height="30"
+                  width="40"
+                  fill="#6FAED6"
+                  style="stroke:black; stroke-width:2">
+               <animateTransform attributeType="XML"
+                                 attributeName="transform"
+                                 type="scale"
+                                 from="0 1"
+                                 to="1 1"
+                                 dur="1s"/>
+            </rect>
+            <text x="270"
+                  y="170"
+                  font-family="sans-serif"
+                  font-size="15"
+                  display="none"
+                  fill="#000000">
+<tspan x="250" dy="20">Odźwierny, Szrama, Następca, </tspan>
+<tspan x="250" dy="20">Awanturnik</tspan></text>
+            <text x="-15"
+                  y="190"
+                  text-anchor="end"
+                  font-family="sans-serif"
+                  font-size="20"
+                  fill="#000000">Solaris</text>
+         </g>
+         <g class="column">
+            <text x="190" y="260" font-family="sans-serif" font-size="20">18<animate attributeType="XML"
+                        attributeName="x"
+                        from="10"
+                        to="190"
+                        dur="1s"
+                        fill="freeze"/>
+            </text>
+            <rect onclick="changeColor(evt)"
+                  class="blue"
+                  id=""
+                  y="240"
+                  x="0"
+                  height="30"
+                  width="180"
+                  fill="#6FAED6"
+                  style="stroke:black; stroke-width:2">
+               <animateTransform attributeType="XML"
+                                 attributeName="transform"
+                                 type="scale"
+                                 from="0 1"
+                                 to="1 1"
+                                 dur="1s"/>
+            </rect>
+            <text x="270"
+                  y="240"
+                  font-family="sans-serif"
+                  font-size="15"
+                  display="none"
+                  fill="#000000">
+<tspan x="250" dy="20">Zemsta, Cierpienia młodego Wertera, Faust, </tspan>
+<tspan x="250" dy="20">Faust, część pierwsza, Faust, część druga, Treny, </tspan>
+<tspan x="250" dy="20">Dziady, Sonety krymskie, Pan Tadeusz, czyli ostatni zajazd na Litwie, </tspan>
+<tspan x="250" dy="20">Berenice, Lalka, Chłopi, Część pierwsza - Jesień, </tspan>
+<tspan x="250" dy="20">Sklepy cynamonowe (zbiór), Krzyżacy, Quo vadis, </tspan>
+<tspan x="250" dy="20">Kordian, Wesele, Przedwiośnie</tspan></text>
+            <text x="-15"
+                  y="260"
+                  text-anchor="end"
+                  font-family="sans-serif"
+                  font-size="20"
+                  fill="#000000">Fundacja Nowoczesna Polska</text>
+         </g>
+      </g>
+   </defs>
+   <use xlink:href="#publishers" x="0" y="0"/>
+   <use xlink:href="#genres" x="0" y="350"/>
+   <script type="text/ecmascript">
+
+
+
+function changeColor(evt) {
+    var rect = evt.target;
+
+    if (rect.getAttribute("class")=="blue"){
+        rect.setAttribute("class", "red");
+        rect.nextElementSibling.setAttribute("display","inline");
+
+    }
+    else{
+        rect.setAttribute("class", "blue");
+        rect.nextElementSibling.setAttribute("display","none");
+    }
+}
+
+
+             </script>
+   <style>
+                .blue{
+                fill: #6FAED6;
+                }
+                .blue:hover{
+                fill: #8DD2FF;
+                cursor: pointer;
+                }
+                .red{
+                fill: #DC0000;
+                }
+                .red:hover{
+                fill: #F00;
+                cursor: pointer;
+                }
+            </style>
+</svg>
